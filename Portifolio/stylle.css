@@ -1,0 +1,121 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Seus estilos personalizados aqui */
+
+/* estilizar todo frete */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/*estilizar a div principal */
+.principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-color:black;
+    color:blueviolet;
+}
+/*estilizar*/
+nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.portifolio {
+    color:aqua;
+    font-size: 40px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    color:blue;
+    font-size: 20px;
+    margin-right: 30px;
+    
+    cursor: pointer;
+}
+li:hover {
+    color:red;
+    transition:0,9s;
+}
+/*estilizar a parte das escritas*/
+.meu-nome {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    
+}
+/*estilizando o H1*/
+h1{
+    color:azure;
+    font-size: 50px;
+}
+.meu-nome h3 {
+    color:indigo;
+    font: size 30px;
+    
+}
+/*estilizar a section*/
+section {
+    display:flex;
+    align-items:center;
+    padding: 60px 10%;
+    background-color:rgba(13, 1, 26, 0.829); 
+    justify-content: space-between;
+}
+/*alterar o tamanho da imagem*/
+section img {
+    height: 250px;
+    border-radius: 250px;
+    border: 2px solid black;
+}
+section div h2{
+    color:white;
+    font-size: 60px;
+    margin: 30px;
+}
+
+section div p {
+    color:crimson;
+    font-size: 30px;
+    margin-left: 20px;
+    margin: 15px;
+    padding: 15px;
+    
+}
+section div button {
+    color:black;
+    background-color:chartreuse;
+    border-radius: 30px;
+    border: 10px;;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+section div button:hover {
+    color: darkred;
+    transition: 0,6s;
+    background-color:beige;
+
+}
+div h2:hover {
+    color: rgb(236, 82, 11);
+    transition: 0,9s;
+}
+div p:hover {
+    color: black;
+    transition: 0,10s;
+}
